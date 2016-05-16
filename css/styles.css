@@ -1,0 +1,46 @@
+body {
+  font-size: 16px;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  border-radius: 0;
+  border: 0;
+  border-bottom: 1px solid #E7E7E7;
+  border-top: 1px solid #E7E7E7;
+}
+
+.navbar-brand{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#menu-title-text{
+  font-weight: bold;
+}
+
+.menu-item{
+  border-bottom: 1px solid #E7E7E7;
+}
+
+.menu-description-box{
+  background-color: #00A1B1;
+  margin-top: 20px;
+  padding: 2%;
+  height: 1000px;
+}
+
+.menu-description-box #menu-box-title{
+  font-size: 1.4em;
+  font-weight: bold;
+}
+
+@media (max-width: 767px) {
+  .menu-description-box{
+    padding: 1% 6%;
+  }
+  #menu-items-menu{
+    background-color: #C1C5C7;
+  }
+}
